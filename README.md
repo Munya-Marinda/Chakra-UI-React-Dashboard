@@ -1,3 +1,24 @@
+# This is a Dashboard interface that I build using React.js and Chakra-UI.
+> It functions as a portal for a business owner to view the amount of orders that they have and which need to be completed. I really-really learnt a lot during this project and went into depth with React, Typescript and dependencies/libraries.
+
+Features:
+  - Responsive to mobile and wideview. 
+  - A Navigation Drawer
+  - A piechart that shows Completed VS Incomplete orders from 'react-minimal-pie-chart'
+  - A stats bar using 'chakra-ui' Stats component
+  - A paginator that displays 6 oders per page on mobile view from 'chakra-paginator'
+  - Shows each order in table-form using 'react-table' in wideview, and as small cards on mobileview.
+
+# [Images]
+
+![Chakra UI dashboard](https://user-images.githubusercontent.com/84540577/174483043-24acbf11-56fc-4074-aa20-3f21d4229c31.png)
+ 
+![Chakra UI dashboard2](https://user-images.githubusercontent.com/84540577/174483918-cb16fac8-a65d-434d-bbf1-08998e615842.png)
+
+![Chakra UI dashboard5](https://user-images.githubusercontent.com/84540577/174484171-34bf6241-6d22-420b-b957-8b616c6922fa.png)
+
+ 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started Today
