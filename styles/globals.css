@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-dashboard-container {
+  padding: 2vw;
+  background-color: white;
+}
+
+.sub-head-userInfo-box {
+  width: "inherit";
+  background-color: #dfe0e2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.sub-head-userInfo-text-container {
+  padding-right: 5px;
+}
+
+.dashboard-list-item-button {
+  padding: 7px;
+  color: rgb(85, 85, 85);
+  border-radius: 0px;
+  background-color: #dfe0e2;
+  text-align: left;
+}
