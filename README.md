@@ -1,23 +1,31 @@
-# This is a Dashboard interface that I build using React.js and Chakra-UI.
-> It functions as a portal for a business owner to view the amount of orders that they have and which need to be completed. I really-really learnt a lot during this project and went into depth with React, Typescript and dependencies/libraries.
+# This is a dashboard that allows the user to view their orders.
 
-Features:
-  - Responsive to mobile and wideview. 
-  - A Navigation Drawer
-  - A piechart that shows Completed VS Incomplete orders from 'react-minimal-pie-chart'
-  - A stats bar using 'chakra-ui' Stats component
-  - A paginator that displays 6 oders per page on mobile view from 'chakra-paginator'
-  - Shows each order in table-form using 'react-table' in wideview, and as small cards on mobileview.
+- I did this project to further my experience of using Chakra-UI and explored more of its features and learnt and added other libraries to for specific features. 
+- My biggest challenge was implementing a 'paginator' that lists 6 orders per page because displaying all orders proved to be too heavy on a mobile view. 
+- The Dashboard has a drawer for site navigation, stores the order data in a separate JavaScript file, displays a stat/analysis bar of 'completed vs incomplete' orders, displays the orders in a table on wideview and as small cards on mobile view.
+- Libraries/Frameworks: React JS, Chakra-UI, react-minimal-pie-chart, chakra-paginator, react-table
 
 # [Images]
 
+## Wideview with drawer open 
 ![Chakra UI dashboard](https://user-images.githubusercontent.com/84540577/174483043-24acbf11-56fc-4074-aa20-3f21d4229c31.png)
  
+## Wideview displaying the table of orders
 ![Chakra UI dashboard2](https://user-images.githubusercontent.com/84540577/174483918-cb16fac8-a65d-434d-bbf1-08998e615842.png)
 
+## Mobileview displaying the orders in card form. The paginator allows 6 order cards to be diplayed at a time.
 ![Chakra UI dashboard5](https://user-images.githubusercontent.com/84540577/174484171-34bf6241-6d22-420b-b957-8b616c6922fa.png)
 
  
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
